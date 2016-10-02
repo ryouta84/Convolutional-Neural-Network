@@ -1,0 +1,7 @@
+Undefined symbols for architecture x86_64:
+  "CNN::input(std::__1::vector<std::__1::vector<double, std::__1::allocator<double> >, std::__1::allocator<std::__1::vector<double, std::__1::allocator<double> > > > const&, double)", referenced from:
+      _main in main-bafebe.o
+  "CNN::CNN(std::__1::vector<std::__1::vector<double, std::__1::allocator<double> >, std::__1::allocator<std::__1::vector<double, std::__1::allocator<double> > > > const&)", referenced from:
+      _main in main-bafebe.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)

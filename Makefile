@@ -1,4 +1,4 @@
-OBJS	= main.o CNN.o ConvLayer.o PoolingLayer.o
+OBJS	= main.o CNN.o ConvLayer.o PoolingLayer.o Perceptron.o
 PROGRAM = main
 
 all:			$(PROGRAM)
@@ -17,3 +17,6 @@ ConvLayer.o:	ConvLayer.cpp
 
 PoolingLayer.o: PoolingLayer.cpp
 				g++ -std=c++14 -c PoolingLayer.cpp
+
+Perceptron.o: 	Perceptron.cpp
+				g++ -std=c++14 -c Perceptron.cpp
